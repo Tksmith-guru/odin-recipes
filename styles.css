@@ -1,0 +1,29 @@
+h1 {
+	color: #FFA500;
+	text-align: center;
+}
+
+* {
+	background-color: red;
+}
+
+h3 {
+	color: #FFa500;
+	text-align: center;
+}
+
+.recipe {
+	color: black;
+	font-weight: bold;
+	font-family: "Verdana", "sans-serif", "Times New Roman";
+}
+
+li {
+	text-align: center;
+	list-style-position: inside;
+}
+
+div {
+	display: grid;
+	place-items: center;
+}
