@@ -4,21 +4,50 @@
 		<head>
 			<meta charset= "UTF-8">
 			<title>Odin recipe</title>
-			<link rel="stylesheet" href="styles.css">
+<style>
+* {
+	        background-image: url("images/toast.jpg");
+		        background-repeat: no-repeat;
+			        background-position: center center;
+				        background-size: cover;
+}
+
+.container .text {
+	        color: brown;
+}
+
+#food {
+	        color: brown;
+}
+
+#morefood {
+	        color: brown;
+}
+
+.food {
+	        color:brown;
+}
+</style>
+
 		</head>
 		<body>
-			<h1 class="blue">French Toast<h1>
-					<h3><p>We have lots of difffernt types of french toasts. They include;</p></h3>
+			<div class="container">
+				<h1 id="food">French Toast<h1>
+			</div>
+					<h3 class="food"><p>We have lots of difffernt types of french toasts. They include;</p></h3>
 					<ol>
 						<li><em>Chicken leg French-toast</em></li>
 						<li><em>Blueberry French-toast</em></li>
 						<li><em>Bannana French-toast</em></li>
 						<li><em>Eggless French-toast</em></li>
 					</ol>
-					<h2 class="blue"><ins>Blueberry French Toast</ins></h2>
+					<div class="container">
+						<h2 class="text"><ins>Blueberry French Toast</ins></h2>
+					</div>
 					<img src="images/Blueberry French Toast.jpeg" alt="A lovely toast" width="400">
-					<h3><ins>Description:</ins><em> the blueberry french toast <del>casserole</del> is a very unique breakfast disk. Good for any holidday breakfast or brunch, it's filled with the fresh taste of blueberrries and covered with a rich blueberry sauce to make it look yummy and delicious to eat. Its one of a kind, if you are someone looking for something to that willl make you to savour the taste. Then, this dish is the one for you. its made up of a slice of bread, cream cheese, fresh blusberries, egg, milk, vanilla extract (optional) and syrup.</em>
-						<h2>Ingredients for French Toast</h2>
+					<h3><ins><div id="morefood">Description</div></ins><em> the blueberry french toast <del>casserole</del> is a very unique breakfast disk. Good for any holidday breakfast or brunch, it's filled with the fresh taste of blueberrries and covered with a rich blueberry sauce to make it look yummy and delicious to eat. Its one of a kind, if you are someone looking for something to that willl make you to savour the taste. Then, this dish is the one for you. its made up of a slice of bread, cream cheese, fresh blusberries, egg, milk, vanilla extract (optional) and syrup.</em>
+						<div class="container">	
+						<h2 class="text">Ingredients for French Toast</h2>
 						<ul>
 							<li><em>12 slices day-old braed, cut into i-inch cube</em></li>
 							<li><em>2 (8 ounce) packages cream cheese, cut into 1 inch cube</em></li>
@@ -28,14 +57,18 @@
 							<li><em>1 teaspoon vanilla extract</em></li>
 							<li><em><sup>1</sup>/<sub>3</sub> cup maple syrup</em></li>
 						</ul>
-						<h2>Ingredients for blueberry Sauce</h2>
+						<div class="container">
+							<h2 class="text">Ingredients for blueberry Sauce</h2>
+						</div>
 						<ul>
 							<li><em>1 cup white sugar</em></li>
 							<li><em>1 cup of water</em></li>
 							<li><em>2 tablespoons cornstarch</em></li>
 							<li><em>1 tablespoon butter</em></li>
 						</ul>
-						<h2>Directions</h2>
+						<div class="container">
+							<h2 class="text">Directions</h2>
+						</div>
 						<ul>
 							<li><em>Prepare casserole; Lightly grease a 9x13 - inch baking dish. Arrange <sup>1</sup>/<sub>2</sub> of the bread cubes in the dish and top with cream cheese cube. Sprinkle blueberries over the cream cheese, then top with remaining bread cubes.</em></li>
 							<li><em>Whisk eggs, milk, vanilla extract, and syrup together in a large bowl until well-combined: pour over the bread cubes. Cover and refrigerate overnight.</em></li>
