@@ -1,7 +1,74 @@
+body {
+	font-family: sans-serif;
+}
+
 h1 {
 	color: #FFA500;
 	text-align: center;
 	font-size: 90px;
+}
+
+@media only screen and (max-width:700px) {
+	div.section img {
+		height: 400px;
+	}
+
+	div.section h3 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+div.section img {
+	width: 600px;
+}
+
+}
+
+@media only screen and (max-width: 760px) {
+	div.section img {
+		width: 400px;
+	}
+
+	div.section h1 {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 774px) {
+	div.section h1 {
+		flex-wrap: wrap;
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	body div.section {
+		margin: 20px 40px 20px 20px;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	div.section img {
+		width: 360px;
+		height: 360px;
+	}
+
+	div.section h3 {
+		font-weight: 300;
+	}
+
+	div.section a {
+		font-weight: 100;
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	div.section img {
+		width: 200px;
+		height: 200px;
+	}
 }
 
 * {
@@ -27,6 +94,20 @@ h3 {
 li {
 	text-align: center;
 	list-style-position: inside;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.section div.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.section ul {
+	list-style: none;
 }
 
 img {

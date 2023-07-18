@@ -26,9 +26,29 @@
 .inscription {
 	color: rgb(0, 0, 255);
 }
+
+@media only screen and (max-width: 370px) {
+	div.main-container {
+		margin: 20px 60px 20px 60px;
+	}
+
+	div.main-container img {
+		width: 190px;
+		height: 190px;
+	}
+}
+
+@media only screen and (max-width: 289px) {
+	div.main-container img {
+		width: 170px;
+		height: 170px;
+	}
+}
+
 </style>
 		</head>
 		<body>
+			<div class="main-container">
 			<h1 class="Unique">Pancake</h1>
 			<p><h3>There are so many types of different pancakes, here a few that might make your lips watery</h3></p>
 			<ol>
@@ -59,5 +79,6 @@
 				<li><em>Pour or scoop the batter onto the hot griddle, using approximately <sup>1</sup>/<sub>4</sub> cup for each pancake; cook until bubbles appear on the surface, then flip and cook until golden brown on both sides. Serve hot.</em></li>
 			</ol>
 			<a href="../index.html">Return to Menu</a>
+			</div>
 		</body>
 	</html>
